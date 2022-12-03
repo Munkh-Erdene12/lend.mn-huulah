@@ -1,0 +1,94 @@
+@media (max-width: 968px) {
+    header .menu .logo {
+      width: 40% !important;
+    }
+    header .menu .nav {
+      display: none;
+    }
+    header .menu .nav-menu {
+      display: block;
+    }
+    main .main-info .info {
+      grid-template-columns: repeat(3, 33%);
+      grid-template-rows: repeat(3, 72px);
+    }
+  }
+  
+  @media (max-width: 668px) {
+    .app {
+      height: 120px;
+      flex-direction: column;
+    }
+    .app .iphone-app-store {
+      margin-right: 0;
+      margin-bottom: 10px;
+    }
+  }
+  @media (max-width: 598px) {
+    .header-slide .slide img {
+      height: 150px !important;
+      object-fit: cover;
+    }
+    main .content .main-video {
+      max-width: 90% !important;
+      /* margin: auto; */
+    }
+    main .content .main-video .content-video-img .mp4 {
+      left: 5%;
+      top: 20%;
+    }
+    main .content .main-video .content-video-img .mp4 video {
+      width: 90%;
+    }
+  }
+  @media (max-width: 860px) {
+    .main-content-item {
+      justify-content: center !important;
+      grid-template-columns: repeat(1, 285px) !important;
+      grid-template-rows: repeat(6, auto);
+    }
+    .main-content-item .content.item {
+      width: 100%;
+    }
+  
+    main .cntr .main-content .main-content-item .content-item p {
+      margin-bottom: 30px !important;
+    }
+    main .main-banner {
+      display: none;
+    }
+    main .main-info {
+      display: none !important;
+    }
+    main .new-content .new-content-item {
+      flex-direction: column;
+      align-items: center;
+      width: 100% !important;
+    }
+    main .new-content .new-content-item .new-content-block {
+      width: 95% !important;
+      margin: 20px;
+    }
+  }
+  @media (max-width: 768px) {
+    footer .menu-footer-info .footer-1 {
+      display: none;
+    }
+    footer .menu-footer-info {
+      width: 100%;
+    }
+    footer .menu-footer-info .footer-menu-mod {
+      display: flex;
+      width: 100% !important;
+    }
+    footer .contact-1 .contact-menu {
+      width: 50%;
+    }
+  }
+  @media (max-width: 1206px) {
+    header .menu .nav ul {
+      font-size: 10px !important;
+      /* background: #000; */
+    }
+  }
+  

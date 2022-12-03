@@ -474,7 +474,7 @@ footer .copyright p {
 footer .copyright p:hover {
   transition: all 0.3s;
   color: #ff6600;
-}/*# sourceMappingURL=sytle.css.map */
+}
 
 @media (max-width: 968px) {
   header .menu .logo {
@@ -491,7 +491,6 @@ footer .copyright p:hover {
     grid-template-rows: repeat(3, 72px);
   }
 }
-
 @media (max-width: 668px) {
   .app {
     height: 120px;
@@ -505,7 +504,8 @@ footer .copyright p:hover {
 @media (max-width: 598px) {
   .header-slide .slide img {
     height: 150px !important;
-    object-fit: cover;
+    -o-object-fit: cover;
+       object-fit: cover;
   }
   main .content .main-video {
     max-width: 90% !important;
@@ -528,7 +528,6 @@ footer .copyright p:hover {
   .main-content-item .content.item {
     width: 100%;
   }
-
   main .cntr .main-content .main-content-item .content-item p {
     margin-bottom: 30px !important;
   }
@@ -568,4 +567,4 @@ footer .copyright p:hover {
     font-size: 10px !important;
     /* background: #000; */
   }
-}
+}/*# sourceMappingURL=sytle.css.map */
