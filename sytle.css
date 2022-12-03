@@ -258,11 +258,8 @@ main .content .main-video .content-video-img .mp4 {
   display: none;
   position: absolute;
   top: 0%;
-  left: 24%;
-  top: 5%;
 }
 main .content .main-video .content-video-img .mp4 video {
-  width: 70%;
   height: auto;
 }
 main .main-banner {
