@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none !important;
+  text-decoration: none !important;
+}
+.cntr {
+  width: 80%;
+  height: auto;
+  margin: auto;
+}
+body {
+  overflow: scroll;
+  font-family: 'Roboto', sans-serif;
+}
+@mixin btween {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  h1 {
+    color: #293c43;
+    text-align: center;
+    margin: 20px 0;
+    letter-spacing: 0.8;
+    line-height: 35px;
+  }
+  .linner {
+    width: 250px;
+    height: 8px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(302deg, #ff6600 46%, #f93702 100%);
+  }
+  p {
+    text-align: center !important;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 17px;
+    line-height: 22px;
+    letter-spacing: 0.8px;
+    font-weight: 300;
+    color: #293c43;
+    z-index: 1;
+  }
+}
+
+.main-content-item {
+  max-width: 100%;
+  display: grid;
+  justify-content: space-between;
+  grid-template-columns:
+    minmax(auto, 285px)
+    minmax(auto, 285px)
+    minmax(auto, 285px)
+    minmax(auto, 285px);
+  .content-item {
+    width: 100%;
+    text-align: center;
+    h1 {
+      line-height: 56px;
+      color: #293c43 !important;
+      font-size: 44px;
+    }
+    h4 {
+      margin-top: 20px;
+      font-size: 18px;
+      line-height: 24px;
+      color: #293c43 !important;
+      margin-bottom: 10px;
+    }
+    p {
+      margin-bottom: 20px;
+      line-height: 20px;
+      font-size: 14px;
+      color: #5f717d;
+    }
+    .content-item-img {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 50px;
+      img {
+        width: 50%;
+      }
+    }
+  }
+}
+.more-btn {
+  max-width: 100%;
+  height: fit-content;
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  .btn {
+    width: 250px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    outline: none !important;
+    border: 2px solid #f93702;
+    background: transparent;
+    border-radius: 20px;
+    color: #f93702;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s;
+    &:hover {
+      transition: all 0.3s;
+      color: #fff;
+      background: #f93702;
+    }
+  }
+}
