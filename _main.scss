@@ -21,16 +21,12 @@ main {
         }
         position: relative;
         &:hover .mp4 {
-          display: block;
+          visibility: visible;
         }
         .mp4 {
-          display: none;
           position: absolute;
+          visibility: hidden;
           top: 0%;
-          video {
-            // width: 80%;
-            height: auto;
-          }
         }
       }
     }

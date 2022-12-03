@@ -252,15 +252,12 @@ main .content .main-video .content-video-img img {
   height: 100%;
 }
 main .content .main-video .content-video-img:hover .mp4 {
-  display: block;
+  visibility: visible;
 }
 main .content .main-video .content-video-img .mp4 {
-  display: none;
   position: absolute;
+  visibility: hidden;
   top: 0%;
-}
-main .content .main-video .content-video-img .mp4 video {
-  height: auto;
 }
 main .main-banner {
   display: block;
